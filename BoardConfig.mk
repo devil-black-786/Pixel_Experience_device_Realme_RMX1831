@@ -106,8 +106,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6771
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
-
+BUILD_BROKEN_DUP_RULES := true
 # DRM
+
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Power
