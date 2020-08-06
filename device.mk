@@ -145,4 +145,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/vintf/manifest.xml
 
-$(call inherit-product, vendor/realme/RMX1831/RMX1831-vendor.mk)
+$(call inherit-product, vendor/realme/lucifer/lucifer-vendor.mk)
